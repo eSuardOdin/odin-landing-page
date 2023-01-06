@@ -106,6 +106,7 @@ body {
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .citation {
@@ -115,24 +116,67 @@ body {
     color: #1F2937;
 }
 
-
-
-
-
-/* BUTTON */
-.button {
-
+.author {
+    display: flex;
+    justify-content: flex-end;
 }
 
 
 
 
+/* BUTTON */
+.button-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.btn-container {
+   background-color: #3882F6;
+   width: 100%;
+   padding: 70px;
+   margin-top: 80px;
+   margin-bottom: 80px;
+   display: flex;
+   justify-content: space-around;
+}
+
+
+.btn-text-title {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.btn-title {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+}
+
+.btn-text {
+    margin: 0;
+    color: white;
+}
+
+.btn {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 400;
+    border-radius: 10px;
+}
 
 
 
 /* FOOTER */
 
 .footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer-text {
+    color: white;
+    font-style: italic;
 }
