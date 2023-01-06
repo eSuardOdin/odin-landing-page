@@ -110,6 +110,9 @@ body {
 
 .citation {
     width: 500px;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
 }
 
 
