@@ -80,6 +80,7 @@ body {
 }
 .card legend{
     width: 80px;
+    font-size: small;
 }
 
 .card {
